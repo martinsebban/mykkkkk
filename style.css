@@ -1,0 +1,84 @@
+/* Colors and fonts */
+
+body {
+	background-color: #F7F9FC;
+	color: #575F7D;
+	font-family: 'Lora', serif;
+}
+	font-size: 16px;
+	font-weight: lighter;
+}
+h1, h2, h3 {
+	font-family: 'Roboto', sans-serif;
+}
+h1 {
+	color: #575F7D;
+	font-size: 32px; 
+	font-weight: 900;
+}
+h2 {
+	color: #3ECF8E;
+	font-size: 20px;
+	font-weight: 300; 
+}
+a {
+	text-decoration: none;
+	color: #6B72E1; 
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600; 
+	font-size: 16px; 
+}
+a:hover {
+	color: black;
+}
+
+/* Customize classes */
+
+.container {
+	width: 600px;
+	margin: 70px auto;
+}
+.white-card {
+	background-color: white; 
+	padding: 40px; 
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border border-radius: 5px;
+	margin: 20px 0px;
+	text-align: center;
+
+}
+.img.circle {
+	border-radius: 50%;
+}
+.btn-blue {
+	background-color: #6B72E1;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 4px;
+}
+.btn-blue:hover {
+	background-color: black;
+	color: white; 
+}
+
+.image-circle {
+	border-radius: 50%;
+	max-width: 175px;
+    height: 175px;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: : 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 50px;
+	color: blue;
+}
+#introduction p {
+	margin: 20px;
+} 
